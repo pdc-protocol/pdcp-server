@@ -1,0 +1,9 @@
+include:
+  - project: 'gitlab/job-templates'
+    file: '/common.yml'
+
+variables:
+  AUTO_DEVOPS_DEPLOY_INT: "true"
+  AUTO_DEVOPS_DEPLOY_QA: "true"
+  AUTO_DEVOPS_DEPLOY_PREPRODUCTION: "false"
+  POSTGRES_ENABLED: "false"
